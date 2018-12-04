@@ -1,0 +1,738 @@
+% Christian Villegas, Brunel University London, 2018
+% Java Code Console Output for Software Engineering coursework
+% Inputs: Check README for input files I generated using Git Log command line.
+% Outputs: The total number of defects, Amount of defects per Java file, total number of file defects, non defective files. 
+ 
+Total Number of Defects: 715
+
+Amount of Defects Per Java File
+
+Code128Writer: 8 defects
+Code128WriterTestCase: 6 defects
+Code93Reader: 5 defects
+Code93Writer: 1 defects
+Code93WriterTestCase: 2 defects
+Code39Writer: 7 defects
+Code93ReaderTestCase: 1 defects
+ByQuadrantReader: 4 defects
+Detector: 31 defects
+DataMatrixBlackBox2TestCase: 3 defects
+EAN8Writer: 4 defects
+UPCEWriter: 7 defects
+BitArrayTestCase: 4 defects
+URIParsedResult: 6 defects
+OneDimensionalCodeWriter: 3 defects
+CaptureActivityHandler: 6 defects
+DecodeHintManager: 2 defects
+HttpHelper: 2 defects
+ResultHandler: 16 defects
+ShareActivity: 6 defects
+WifiConfigManager: 4 defects
+DecodeServlet: 13 defects
+HistoryManager: 4 defects
+CommandLineEncoderTestCase: 2 defects
+CommandLineRunnerTestCase: 2 defects
+DecodeWorker: 3 defects
+DecodeWorkerTestCase: 1 defects
+State: 2 defects
+EncoderTest: 3 defects
+EAN13Writer: 3 defects
+ITFWriter: 6 defects
+EAN13WriterTestCase: 3 defects
+EAN8WriterTestCase: 3 defects
+ITFWriterTestCase: 3 defects
+UPCEWriterTestCase: 4 defects
+DecodedBitStreamParser: 49 defects
+DecodedBitStreamParserTestCase: 8 defects
+GenericGFPoly: 3 defects
+GenericGFPolyTestCase: 2 defects
+ReedSolomonTestCase: 3 defects
+BitArray: 4 defects
+BitMatrix: 8 defects
+C40Encoder: 2 defects
+TextEncoder: 1 defects
+MaxiCodeReader: 2 defects
+RSSExpandedReader: 7 defects
+BoundingBox: 3 defects
+Decoder: 25 defects
+FinderPatternFinder: 13 defects
+Encoder: 16 defects
+PlanarYUVLuminanceSourceTestCase: 1 defects
+RGBLuminanceSourceTestCase: 3 defects
+DecoderTest: 6 defects
+ExpandedProductParsedResultTestCase: 3 defects
+VINParsedResultTestCase: 1 defects
+AbstractBlackBoxTestCase: 8 defects
+StringUtilsTestCase: 1 defects
+TestResult: 1 defects
+MathUtilsTestCase: 1 defects
+Maxicode1TestCase: 1 defects
+MultiTestCase: 1 defects
+MultiQRCodeTestCase: 1 defects
+Code39ExtendedModeTestCase: 2 defects
+Code39WriterTestCase: 2 defects
+RSSExpandedBlackBox1TestCase: 1 defects
+RSSExpandedBlackBox2TestCase: 2 defects
+RSSExpandedBlackBox3TestCase: 1 defects
+RSSExpandedImage2binaryTestCase: 1 defects
+RSSExpandedImage2resultTestCase: 2 defects
+RSSExpandedImage2stringTestCase: 1 defects
+RSSExpandedInternalTestCase: 2 defects
+RSSExpandedStackedBlackBox1TestCase: 1 defects
+RSSExpandedStackedBlackBox2TestCase: 1 defects
+RSSExpandedStackedInternalTestCase: 1 defects
+3_DecoderTest: 1 defects
+coderTest: 1 defects
+AbstractDecoderTest: 2 defects
+AnyAIDecoderTest: 1 defects
+FieldParserTest: 1 defects
+PDF417BlackBox3TestCase: 3 defects
+PDF417WriterTestCase: 1 defects
+PDF417DecoderTestCase: 1 defects
+PDF417EncoderTestCase: 1 defects
+VersionTestCase: 3 defects
+EncoderTestCase: 7 defects
+MaskUtilTestCase: 3 defects
+DecoderConfig: 2 defects
+Base64DecoderTestCase: 1 defects
+ImageReaderTestCase: 1 defects
+MatrixToImageWriterTestCase: 1 defects
+AbstractFilter: 1 defects
+OutputUtils: 2 defects
+WelcomeFilter: 1 defects
+OutputUtilsTestCase: 1 defects
+UPCAReader: 3 defects
+PDF417ResultMetadata: 2 defects
+PDF417BlackBox4TestCase: 1 defects
+PDF471DecoderTestCase: 1 defects
+EdifactEncoder: 3 defects
+CameraConfigurationManager: 11 defects
+DataMatrixWriter: 6 defects
+EncodeHintType: 5 defects
+MultiFinderPatternFinder: 3 defects
+QRCodeBlackBox6TestCase: 1 defects
+ITFReader: 12 defects
+ITFBlackBox1TestCase: 4 defects
+HighLevelEncoder: 5 defects
+QRCodeBlackBox2TestCase: 8 defects
+QRCodeBlackBox3TestCase: 4 defects
+QRCodeBlackBox5TestCase: 2 defects
+NetworkType: 3 defects
+WifiParsedResult: 1 defects
+WifiResultParser: 3 defects
+Code39Reader: 10 defects
+DoSFilter: 3 defects
+MECARDContactEncoder: 1 defects
+WifiResultHandler: 3 defects
+Base256Encoder: 2 defects
+X12Encoder: 3 defects
+HighLevelEncodeTestCase: 3 defects
+DecodeHintType: 6 defects
+Dimension: 1 defects
+FormatException: 3 defects
+InvertedLuminanceSource: 1 defects
+PlanarYUVLuminanceSource: 2 defects
+RGBLuminanceSource: 3 defects
+Reader: 5 defects
+ResultMetadataType: 4 defects
+ResultPoint: 4 defects
+WriterException: 1 defects
+AztecReader: 3 defects
+AztecWriter: 1 defects
+AztecCode: 1 defects
+BinaryShiftToken: 1 defects
+SimpleToken: 1 defects
+Token: 1 defects
+CharacterSetECI: 4 defects
+DecoderResult: 6 defects
+DefaultGridSampler: 6 defects
+GridSampler: 7 defects
+PerspectiveTransform: 3 defects
+StringUtils: 2 defects
+WhiteRectangleDetector: 4 defects
+GenericGF: 1 defects
+ReedSolomonDecoder: 6 defects
+BitMatrixParser: 13 defects
+DataBlock: 6 defects
+Version: 7 defects
+ASCIIEncoder: 1 defects
+DefaultPlacement: 2 defects
+EncoderContext: 1 defects
+SymbolInfo: 3 defects
+SymbolShapeHint: 1 defects
+GenericMultipleBarcodeReader: 7 defects
+EANManufacturerOrgSupport: 1 defects
+MultiFormatOneDReader: 6 defects
+MultiFormatUPCEANReader: 4 defects
+UPCEANExtension2Support: 1 defects
+UPCEANExtension5Support: 1 defects
+DataCharacter: 1 defects
+ExpandedPair: 1 defects
+ExpandedRow: 1 defects
+FieldParser: 1 defects
+BarcodeValue: 2 defects
+DetectionResult: 2 defects
+DetectionResultColumn: 2 defects
+DetectionResultRowIndicatorColumn: 3 defects
+PDF417CodewordDecoder: 3 defects
+PDF417ScanningDecoder: 7 defects
+ModulusGF: 4 defects
+Compaction: 1 defects
+PDF417HighLevelEncoder: 10 defects
+QRCodeReader: 9 defects
+QRCodeDecoderMetaData: 1 defects
+MatrixUtil: 7 defects
+CameraConfigurationUtils: 1 defects
+Java8Base64Decoder: 1 defects
+HybridBinarizer: 3 defects
+AddressBookParsedResult: 1 defects
+VCardResultParser: 7 defects
+AddressBookParsedResultTestCase: 4 defects
+ReedSolomonEncoder: 2 defects
+ContactInfoGenerator: 7 defects
+UPCEReader: 4 defects
+CaptureActivity: 19 defects
+UPCEANWriter: 1 defects
+UPCAWriterTestCase: 1 defects
+UPCAWriter: 1 defects
+UPCEANReader: 3 defects
+Result: 3 defects
+ModulusPoly: 2 defects
+BitMatrixTestCase: 3 defects
+DataMask: 6 defects
+AztecBlackBox1TestCase: 3 defects
+MatrixUtilTestCase: 2 defects
+GlobalHistogramBinarizer: 4 defects
+FormatInformation: 4 defects
+MaskUtil: 7 defects
+DataMaskTestCase: 2 defects
+BookmarkPickerActivity: 2 defects
+AppPickerActivity: 3 defects
+CommandLineRunner: 9 defects
+AddressBookResultHandler: 2 defects
+BenchmarkItem: 3 defects
+MonochromeRectangleDetector: 4 defects
+QRCodeMultiReader: 4 defects
+AlignmentPatternFinder: 6 defects
+GeoParsedResultTestCase: 1 defects
+CommandLineEncoder: 2 defects
+Validators: 3 defects
+HelpActivity: 4 defects
+CameraManager: 24 defects
+OpenCameraInterface: 3 defects
+CameraFacing: 1 defects
+OpenCamera: 1 defects
+BeepManager: 1 defects
+EncoderConfig: 1 defects
+BufferedImageLuminanceSource: 7 defects
+MatrixToImageWriter: 3 defects
+TitleRetriever: 1 defects
+ChecksumException: 2 defects
+ReaderException: 4 defects
+SymbolInfoTestCase: 2 defects
+QRCodeEncoder: 10 defects
+NotFoundException: 1 defects
+CalendarEventGenerator: 3 defects
+TimeZoneInfo: 1 defects
+StringsResourceTranslator: 1 defects
+CalendarParsedResultTestCase: 2 defects
+AbstractErrorCorrectionTestCase: 2 defects
+RedirectFilter: 1 defects
+ResultParser: 6 defects
+WifiParsedResultTestCase: 1 defects
+CodaBarWriter: 3 defects
+IntentIntegrator: 4 defects
+Intents: 3 defects
+URIResultParser: 2 defects
+URIParsedResultTestCase: 1 defects
+ErrorCorrection: 5 defects
+EncodeActivity: 9 defects
+SupplementalInfoRetriever: 2 defects
+PDF417: 3 defects
+AutoFocusManager: 2 defects
+PreferencesFragment: 4 defects
+HtmlAssetTranslator: 1 defects
+PDF417Writer: 3 defects
+ProductResultParser: 3 defects
+CodaBarWriterTestCase: 2 defects
+AI01392xDecoder: 1 defects
+AI01393xDecoder: 1 defects
+AI01AndOtherAIs: 1 defects
+AbstractExpandedDecoder: 2 defects
+AnyAIDecoder: 1 defects
+DecodedNumeric: 1 defects
+GeneralAppIdDecoder: 1 defects
+Code128Reader: 7 defects
+QRCodeWriterTestCase: 2 defects
+MultiFormatReader: 7 defects
+PDF417Common: 1 defects
+PDF417Reader: 5 defects
+BarcodeMatrix: 1 defects
+BarcodeMetadata: 1 defects
+Codeword: 1 defects
+LinesSampler: 1 defects
+PDF417DetectorResult: 1 defects
+PDF417BlackBox1TestCase: 6 defects
+PDF417BlackBox2TestCase: 6 defects
+DetectorTest: 1 defects
+ExpandedProductParsedResult: 2 defects
+ExpandedProductResultParser: 1 defects
+RSS14BlackBox2TestCase: 2 defects
+PlatformSupportManager: 1 defects
+BitSource: 4 defects
+DefaultAsyncTaskExecInterface: 1 defects
+DefaultExposureInterface: 1 defects
+ExposureInterface: 1 defects
+ExposureManager: 1 defects
+FroyoExposureInterface: 1 defects
+InactivityTimer: 2 defects
+ErrorCorrectionTestCase: 1 defects
+VEventResultParser: 3 defects
+CalendarResultHandler: 1 defects
+CodaBarReader: 2 defects
+ViewfinderView: 7 defects
+WifiGenerator: 3 defects
+DecodeHandler: 3 defects
+CameraTestActivity: 3 defects
+SaveThread: 4 defects
+ZXingTestActivity: 1 defects
+SearchBookContentsListItem: 1 defects
+PreviewCallback: 2 defects
+URIResultHandler: 3 defects
+BookResultInfoRetriever: 1 defects
+Binarizer: 2 defects
+AddressBookAUResultParser: 2 defects
+AddressBookDoCoMoResultParser: 2 defects
+BizcardResultParser: 2 defects
+BookmarkDoCoMoResultParser: 2 defects
+CalendarParsedResult: 3 defects
+EmailAddressResultParser: 2 defects
+EmailDoCoMoResultParser: 4 defects
+ISBNResultParser: 1 defects
+SMSMMSResultParser: 2 defects
+SMSParsedResult: 3 defects
+SMSTOMMSTOResultParser: 1 defects
+SMTPResultParser: 1 defects
+TelResultParser: 2 defects
+URLTOResultParser: 2 defects
+MultiDetector: 2 defects
+OneDReader: 4 defects
+UPCEANExtensionSupport: 1 defects
+RSSUtils: 1 defects
+BarcodeRow: 1 defects
+QRCodeWriter: 4 defects
+Mode: 2 defects
+QRCode: 4 defects
+ParsedReaderResultTestCase: 9 defects
+ReedSolomonEncoderQRCodeTestCase: 1 defects
+FormatInformationTestCase: 3 defects
+GUIRunner: 3 defects
+FlashlightManager: 2 defects
+PreferencesActivity: 5 defects
+ProductResultInfoRetriever: 1 defects
+URIResultInfoRetriever: 1 defects
+LoadPackagesAsyncTask: 3 defects
+Killer: 2 defects
+NetworkUtil: 3 defects
+WifiActivity: 5 defects
+WifiReceiver: 2 defects
+DataMatrixBlackBox1TestCase: 5 defects
+EAN13BlackBox1TestCase: 5 defects
+EAN13BlackBox5BlurryTestCase: 1 defects
+UPCABlackBox5TestCase: 1 defects
+UPCABlackBox6BlurryTestCase: 1 defects
+SearchBookContentsActivity: 5 defects
+BenchmarkActivity: 2 defects
+BenchmarkThread: 3 defects
+SplashThread: 1 defects
+ImageConverter: 3 defects
+EncodeThread: 1 defects
+DBHelper: 1 defects
+ConnectedReceiver: 2 defects
+Generator: 3 defects
+TimeZoneList: 2 defects
+GF256: 2 defects
+AutoFocusCallback: 1 defects
+SearchBookContentsResult: 2 defects
+QRCodeTestCase: 1 defects
+GeneratorException: 1 defects
+Pair: 1 defects
+RSS14Reader: 1 defects
+FalsePositivesBlackBoxTestCase: 4 defects
+PartialBlackBoxTestCase: 2 defects
+UnsupportedBlackBoxTestCase: 2 defects
+Code128BlackBox2TestCase: 3 defects
+EAN13BlackBox2TestCase: 3 defects
+UPCABlackBox1TestCase: 3 defects
+UPCABlackBox4TestCase: 2 defects
+BlockPair: 1 defects
+AbstractOneDReader: 10 defects
+AbstractUPCEANReader: 4 defects
+EAN13Reader: 3 defects
+BaseLuminanceSource: 1 defects
+InterleavedYUV422LuminanceSource: 1 defects
+PlanarYUV420LuminanceSource: 2 defects
+PlanarYUV422LuminanceSource: 1 defects
+ceSource: 1 defects
+EmailGenerator: 2 defects
+GeoLocationGenerator: 2 defects
+PhoneNumberGenerator: 2 defects
+SmsAddressGenerator: 2 defects
+UrlGenerator: 2 defects
+BrowseBookListener: 1 defects
+LuminanceSource: 2 defects
+GeoResultParser: 2 defects
+LocalBlockBinarizer: 2 defects
+AbstractUPCEANWriter: 1 defects
+DataMatrixReader: 3 defects
+QRCodeBlackBox1TestCase: 4 defects
+YUVLuminanceSource: 2 defects
+BinaryBitmap: 2 defects
+YUVMonochromeBitmapSource: 6 defects
+meBitmapSource: 1 defects
+mapSource: 1 defects
+BugBarcodeApp: 1 defects
+BlackPointEstimationMethod: 2 defects
+MonochromeBitmapSource: 5 defects
+BaseMonochromeBitmapSource: 4 defects
+BlackPointEstimator: 5 defects
+CroppedMonochromeBitmapSource: 3 defects
+MultipleBarcodeReader: 1 defects
+AbstractNegativeBlackBoxTestCase: 3 defects
+BlackPointEstimatorTestCase: 1 defects
+LCDUIImageLuminanceSource: 1 defects
+LCDUIImageMonochromeBitmapSource: 6 defects
+SnapshotThread: 5 defects
+BufferedImageMonochromeBitmapSource: 7 defects
+ZXingLMMainScreen: 1 defects
+DecodeEmailTask: 4 defects
+BarcodeFormat: 3 defects
+AndroidHttpClient: 2 defects
+TextGenerator: 1 defects
+Code128BlackBox1TestCase: 2 defects
+Code128BlackBox3TestCase: 2 defects
+Code39BlackBox1TestCase: 2 defects
+Code39BlackBox3TestCase: 1 defects
+Code39ExtendedBlackBox2TestCase: 2 defects
+EAN13BlackBox3TestCase: 1 defects
+EAN8BlackBox1TestCase: 2 defects
+UPCABlackBox2TestCase: 1 defects
+UPCABlackBox3ReflectiveTestCase: 1 defects
+UPCEBlackBox1TestCase: 2 defects
+UPCEBlackBox2TestCase: 1 defects
+UPCEBlackBox3ReflectiveTestCase: 1 defects
+QRCodeBlackBox4TestCase: 1 defects
+ParsedResult: 1 defects
+GeoParsedResult: 4 defects
+Box1TestCase: 1 defects
+ITF14Reader: 1 defects
+BitVector: 3 defects
+BitVectorTestCase: 1 defects
+ByteArray: 2 defects
+Renderer: 2 defects
+Matrix: 1 defects
+Debug: 1 defects
+ReedSolomonDecoderDataMatrixTestCase: 3 defects
+ReedSolomonDecoderQRCodeTestCase: 3 defects
+AbstractReedSolomonTestCase: 1 defects
+RGBMonochromeBitmapSource: 5 defects
+AWTImageMonochromeBitmapSource: 1 defects
+AbstractDoCoMoResultParser: 1 defects
+HistoryScreen: 1 defects
+EmailAddressParsedResult: 3 defects
+TelParsedResult: 2 defects
+AndroidGraphicsGridSampler: 1 defects
+AndroidIntentParsedResult: 1 defects
+BarcodeReaderCaptureActivity: 3 defects
+CameraSurfaceView: 2 defects
+CameraThread: 4 defects
+AbstractDoCoMoParsedResult: 1 defects
+AddressBookAUParsedResult: 2 defects
+AddressBookDoCoMoParsedResult: 1 defects
+BookmarkDoCoMoParsedResult: 1 defects
+EmailDoCoMoParsedResult: 1 defects
+ParsedReaderResult: 4 defects
+ParsedReaderResultType: 4 defects
+SMSTOParsedResult: 1 defects
+TextParsedResult: 2 defects
+UPCParsedResult: 2 defects
+URLTOParsedResult: 1 defects
+AbstractMobileTagParsedResult: 1 defects
+AbstractNDEFParsedResult: 1 defects
+MobileTagMMSParsedResult: 1 defects
+MobileTagRichWebParsedResult: 1 defects
+MobileTagSMSParsedResult: 1 defects
+MobileTagSimpleCalendarParsedResult: 1 defects
+MobileTagSimpleContactParsedResult: 1 defects
+MobileTagSimpleWebParsedResult: 1 defects
+MobileTagTelParsedResult: 1 defects
+NDEFRecord: 1 defects
+NDEFSmartPosterParsedResult: 1 defects
+NDEFTextParsedResult: 1 defects
+NDEFURIParsedResult: 1 defects
+Collections: 1 defects
+Comparator: 1 defects
+DetectorResult: 1 defects
+GenericResultPoint: 1 defects
+GF256Poly: 1 defects
+ReedSolomonException: 1 defects
+EAN8Reader: 1 defects
+ErrorCorrectionLevel: 1 defects
+AlignmentPattern: 1 defects
+FinderPattern: 2 defects
+FinderPatternInfo: 1 defects
+BitSourceTestCase: 1 defects
+BlackPointEstimationMethodTestCase: 2 defects
+CollectionsTestCase: 1 defects
+PerspectiveTransformTestCase: 2 defects
+ReedSolomonDecoderTestCase: 1 defects
+ErrorCorrectionLevelTestCase: 1 defects
+ModeTestCase: 1 defects
+AdvancedMultimediaManager: 2 defects
+VideoCanvas: 3 defects
+ZXingMIDlet: 6 defects
+ImageCapturedJournalListener: 1 defects
+ZXingMainScreen: 1 defects
+ZXingUIApp: 1 defects
+EmailAuthenticator: 2 defects
+IPTrie: 2 defects
+ServletContextLogHandler: 1 defects
+WorkerThread: 1 defects
+AbstractDoCoMoResult: 1 defects
+AddressBookDoCoMoResult: 1 defects
+BookmarkDoCoMoResult: 1 defects
+EmailAddressResult: 1 defects
+EmailDoCoMoResult: 1 defects
+
+Number of defects in all defective files: 1479
+
+Reviewing All The Files With No Defects
+
+DoSTrackerTestCase 
+DoSFilterTestCase
+LRUMapTestCase
+WelcomeFilterTestCase
+HTTPSFilterTestCase
+MathUtils
+DoSTracker
+LRUMap
+ContactEncoder
+VCardTelDisplayFormatter
+HistoryActivity
+SMSResultHandler
+TelResultHandler
+ChartServlet 
+ClipboardInterface
+HTTPSFilter
+LocaleManager 
+ByteMatrix
+TestCaseUtil
+SMSMMSParsedResultTestCase
+IntentResult
+VCardContactEncoder
+AbstractRSSReader
+AI013x0x1xDecoder
+AllPositiveBlackBoxTester
+SummaryResults
+ScanFromWebPageManager
+DecodeFormatManager 
+BitArrayBuilder 
+AI01320xDecoder
+AI01decoder
+AI01weightDecoder
+CurrentParsingState
+DecodedChar
+DecodedInformation
+DecodedObject
+BinaryUtil
+BinaryUtilTest
+BitArrayBuilderTest
+BookmarkAdapter
+Contents
+HistoryItem
+BenchmarkAsyncTask
+AztecDetectorResult 
+ISBNParsedResult
+ProductParsedResult
+VINParsedResult
+DebugPlacement 
+MultiFormatWriter
+Config
+ImageReader
+LegacyJavadocRedirectServlet
+EmailAddressResultHandler
+EmailAddressParsedResultTestCase
+MatrixToImageConfig
+FrontLightMode
+DecodeRunnable
+MeteringInterface
+AuthUtil
+DecodeHelper
+NewUserSetupServlet
+NotificationCallable
+NotificationServlet
+GoogleAPIMirrorClient
+MemoryMirrorClient
+MirrorClient
+MySQLDataStore
+MySQLDataStoreFactory
+VINResultParser
+ParsedResultType
+Formatter
+VCardFieldFormatter
+BuildConfig
+ResultButtonListener
+AI01_3103_DecoderTest
+AI01_3202_3203_DecoderTest
+AI01_3X0X_1X_DecoderTest
+AmazonInfoRetriever
+DataMatrixWriterTestCase
+ChartServletRequestParameters
+IntentIntegratorSupportV4
+IntentIntegratorV30
+ResultPointCallback
+Writer
+DataMatrixSymbolInfo144
+AI013103decoder
+AI013x0xDecoder
+BlockParsedResult
+Dimensions
+PDF417ErrorCorrection
+AztecBlackBox2TestCase
+ISBNParsedResultTestCase
+ProductParsedResultTestCase
+TelParsedResultTestCase
+BitSourceBuilder
+PlacementTestCase
+FalsePositives2BlackBoxTestCase
+CodabarBlackBox1TestCase
+Code93BlackBox1TestCase
+EAN13BlackBox4TestCase
+EANManufacturerOrgSupportTest
+ITFBlackBox2TestCase
+UPCEANExtensionBlackBox1TestCase
+RSS14BlackBox1TestCase
+ExpandedInformationDecoderTest
+GeneratorSource
+StylesDefs
+AsyncTaskExecInterface
+AsyncTaskExecManager
+HoneycombAsyncTaskExecInterface
+AppInfo
+HistoryItemAdapter
+BSPlusPreference
+DefaultOpenCameraInterface
+GingerbreadOpenCameraInterface
+OpenCameraManager
+AmbientLightManager
+Inputs
+NetworkWorker
+HistoryClickListener
+ResultHandlerFactory
+FinishListener
+ViewfinderResultPointCallback
+ISBNResultHandler
+ProductResultHandler
+KillerCallable
+AWTImageLuminanceSource
+Activator
+ImageCanvas
+BugBarcodeServiceTracker
+AbstractNDEFResultParser
+NDEFSmartPosterResultParser
+NDEFTextResultParser
+NDEFURIResultParser
+ECI
+DefaultMultimediaManager
+Menu
+MultimediaManager
+AboutScreen
+AppPermissionsManager
+Camera
+HelpScreen
+QRCapturedJournalListener
+SettingsScreen
+ZXingUiApplication
+AppSettings
+DecodeHistory
+DecodeHistoryItem
+Log
+ReasonableTimer
+URLDecoder
+DecodeEmailListener
+SearchBookContentsAdapter
+NetworkSetting
+TextResultHandler
+calBlockBinarizer
+AbstractPlanarYUVLuminanceSource
+GeoResultHandler
+StringConstants
+ITF14BlackBox1TestCase
+RendererTestCase
+MobileTagSimpleContactResultParser
+BarcodesCaptureActivity
+BarcodesCaptureActivityHandler
+BarcodesEncodeActivity
+BarcodesPreferenceActivity
+UPCResultHandler
+CParsedResult
+CResultParser
+UPCResultParser
+BitmapCamera
+CameraSource
+MobileTagMMSResultParser
+MobileTagRichWebResultParser
+MobileTagSMSResultParser
+MobileTagSimpleCalendarResultParser
+MobileTagSimpleWebResultParser
+MobileTagTelResultParser
+SMSResultParser
+SMSTOResultParser
+STOParsedResult
+LTOParsedResult
+IParsedResult
+ECITestCase
+AddressBookAUResult
+URLTOResult
+UPCDecoder
+UPCReader
+UPCReaderBlackBox2TestCase
+QRCodeReaderBlackBoxTestCase
+QRCodeReaderExternalTestCase
+UPCReaderBlackBoxTestCase
+QRCodeReaderTestCase
+UPCPoint
+JAIPerspectiveTransform
+
+Top 15 Defective Files
+DecodedBitStreamParser: 49 defects
+CameraManager: 24 defects
+CaptureActivity: 19 defects
+ResultHandler: 16 defects
+Encoder: 16 defects
+DecodeServlet: 13 defects
+BitMatrixParser: 13 defects
+FinderPatternFinder: 13 defects
+ITFReader: 12 defects
+CameraConfigurationManager: 11 defects
+PDF417HighLevelEncoder: 10 defects
+QRCodeEncoder: 10 defects
+DecodedBitStreamParserTestCase: 8 defects
+AbstractBlackBoxTestCase: 8 defects
+EncodeActivity: 9 defects
+
+15 Random Non Defective Files
+StylesDefs
+AppInfo
+HistoryItemAdapter
+AmbientLightManager
+ResultHandlerFactory
+ImageReader
+DebugPlacement
+AztecDetectorResult
+BitArrayBuilder
+DecodeFormatManager 
+AbstractRSSReader
+LocaleManager 
+ChartServlet
+DoSTrackerTestCase
